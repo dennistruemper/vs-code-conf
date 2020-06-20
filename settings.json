@@ -1,0 +1,156 @@
+{
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.lineHeight": 26,
+  "editor.renderIndentGuides": true,
+  "editor.cursorBlinking": "solid",
+  "editor.lineNumbers": "relative",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  // Files
+  "files.exclude": {
+    "**/node_modules/": true,
+    "**/.git": true,
+    "**/.next": true,
+    "**/.DS_Store": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "vendor": true,
+    "**/npm-debug.log": true,
+    "**/dist": true,
+    "**/*.bs.js": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  // Workbench
+  "workbench.list.horizontalScrolling": true,
+  "workbench.panel.defaultLocation": "right",
+  "workbench.startupEditor": "none",
+  "workbench.settings.editor": "json",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.statusBar.visible": true, // formatting only supports LF line endings
+  // Window
+  "window.zoomLevel": 0,
+  "window.restoreWindows": "all",
+  "window.newWindowDimensions": "maximized",
+  // Search
+  "search.quickOpen.includeHistory": false,
+  "search.smartCase": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "dist": true,
+    "out": true,
+    "coverage": true
+  },
+  // Terminal
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.inheritEnv": false,
+  // Explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+  // Vim
+  "vim.leader": "\\",
+  "vim.debug.silent": true,
+  "vim.useSystemClipboard": true,
+  // Space map
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [" "],
+      "after": ["leader", "leader", "2", "s"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "w"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.files.save",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.closeActiveEditor",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.files.save",
+          "args": []
+        },
+        {
+          "command": "workbench.action.closeActiveEditor",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["K"],
+      "after": ["leader", "leader", "k"]
+    },
+    {
+      "before": ["J"],
+      "after": ["leader", "leader", "j"]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "after": ["y", "i", "\""]
+    },
+    {
+      "before": ["Y"],
+      "after": ["y", "$"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["K"],
+      "after": ["leader", "leader", "k"]
+    },
+    {
+      "before": ["J"],
+      "after": ["leader", "leader", "j"]
+    }
+  ],
+  // Easymotion
+  "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "yellow",
+  "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf:",
+  "vim.easymotionMarkerForegroundColorOneChar": "black",
+  "vim.easymotionMarkerForegroundColorTwoChar": "black",
+  "vim.easymotionMarkerFontSize": "17",
+  "vim.easymotionMarkerHeight": 22,
+  "vim.easymotionMarkerYOffset": 4,
+  // CamelCaseMotion
+  "vim.camelCaseMotion.enable": true,
+  // Extensions
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "files.autoSave": "onFocusChange",
+  "serverlessIDE.telemetry.enableTelemetry": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.renderWhitespace": "all",
+  "diffEditor.ignoreTrimWhitespace": false
+}
